@@ -1,0 +1,19 @@
+# virtual env
+.venv/
+venv/
+
+# models
+models/*
+*.pth
+*.pt
+!models/
+!models/best_model.pth
+!models/temperature_scaling.json
+
+# python
+__pycache__/
+*.pyc
+
+# dataset
+data/
+dataset/
